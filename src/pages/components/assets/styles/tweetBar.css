@@ -1,0 +1,7 @@
+.tweet-bar {
+    border-bottom: .5px solid rgb(60, 76, 124);
+}
+
+.tweet-bar input::placeholder {
+    color: #8b98a5;
+}

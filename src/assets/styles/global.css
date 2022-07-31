@@ -1,0 +1,57 @@
+.hover-effect-component {
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.blue-hover-effect-component {
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.blue-hover-effect-component:hover {
+    background-color: rgba(29, 125, 235, 0.2)
+}
+
+.hover-effect-component:hover {
+    background-color: #232b34;
+}
+
+.rounded-component {
+    border-radius: 50%;
+}
+
+.twitter-blue-icon {
+    color: #1d9bf0;
+    transition: .2s ease-in-out;
+    border-radius: 50%;
+}
+
+.twitter-blue-icon:hover {
+    background-color: #162d3f;
+}
+
+hr {
+    border: .5px solid rgb(60, 76, 124);
+}
+
+.blue-tweet-color {
+    color: #1d9bf0;
+}
+
+.gray-tweet-color {
+    color: #8b98a5;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.hover-underline {
+    cursor: pointer;
+}
+
+.hover-underline:hover {
+    text-decoration: underline;
+}

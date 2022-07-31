@@ -1,0 +1,31 @@
+.tweet-component {
+    border-bottom: .5px solid rgb(60, 76, 124);
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.tweet-component p {
+    max-width: 510px;
+}
+
+.tweet-actions-button {
+    margin-top: -15px;
+    font-size: 18px;
+    transition: .2s ease-in-out;
+}
+
+.comment-tweet-button:hover {
+    color: #1d9bf0;
+}
+
+.comment-tweet-button:hover .comment-count-tweet-button {
+    color: #1d9bf0;
+}
+
+.hover-effect-component .retweet-tweet-button:hover {
+    color: #00ba7c;
+}
+
+.hover-effect-component .heart-tweet-button:hover {
+    color: #f91880;
+}

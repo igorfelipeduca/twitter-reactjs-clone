@@ -1,0 +1,5 @@
+.tweet-count-wrapper {
+    border-bottom: .5px solid rgb(60, 76, 124);
+    border-top: .5px solid rgb(60, 76, 124);
+    padding-top: 15px;
+}

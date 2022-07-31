@@ -1,0 +1,23 @@
+.user-info-tooltip {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.follow-tooltip-button {
+    background-color: #fff;
+    color: black;
+    border-radius: 32px;
+    padding: 3px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.follow-tooltip-button:hover {
+    background-color: rgb(220, 218, 218);
+}
+
+.tooltip-username {
+    margin-top: -5px;
+    margin-left: -5px;
+}
