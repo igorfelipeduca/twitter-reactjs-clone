@@ -6,7 +6,28 @@ import TweetComponent from "./components/tweetComponent";
 
 const LandingPage: React.FC = () => {
   const GenerateTweets: React.FC = () => {
-    var tweetlist = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}];
+    var tweetlist = [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+    ];
 
     return (
       <div>

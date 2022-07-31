@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../assets/styles/landing.css";
-import { BsStars, BsImage, BsEmojiSmile } from "react-icons/bs";
+import { BsImage, BsEmojiSmile } from "react-icons/bs";
 import { AiOutlineGif } from "react-icons/ai";
 import { RiBarChartHorizontalFill } from "react-icons/ri";
 import { TbCalendarTime } from "react-icons/tb";
@@ -26,19 +26,6 @@ const TweetBar: React.FC = () => {
   return (
     <div className="tweet-bar">
       <div className="p-3">
-        <div className="d-flex justify-content-between align-items-center sticky">
-          <h5>
-            <b>Página Inicial</b>
-          </h5>
-
-          <div
-            className="hover-effect-component rounded-component p-3 ml-5 d-flex justify-content-center"
-            style={{ cursor: "pointer" }}
-          >
-            <BsStars className="font-size-18" />
-          </div>
-        </div>
-
         <div className="mt-3 d-flex align-items-center">
           <UserImage md />
 

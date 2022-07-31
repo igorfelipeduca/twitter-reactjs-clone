@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "../components/sidebar";
 import TweetExtraAside from "../components/tweetExtraAside";
+import LandingPageHeader from "../components/landingPageHeader";
 
 const MainLayout: React.FC = () => {
   return (
@@ -9,7 +10,10 @@ const MainLayout: React.FC = () => {
         <div className="sticky">
           <Sidebar />
         </div>
-        <Outlet />
+        <div>
+          <LandingPageHeader />
+          <Outlet />
+        </div>
         <div className="sticky">
           <TweetExtraAside />
         </div>

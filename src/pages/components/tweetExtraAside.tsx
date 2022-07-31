@@ -27,7 +27,7 @@ const TweetExtraAside: React.FC = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 sticky">
       <div className={returnWrapperClasses()}>
         <FiSearch className={returnSearchIconClasses()} />
 
